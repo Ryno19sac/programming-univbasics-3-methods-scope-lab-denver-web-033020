@@ -15,10 +15,9 @@ puts phrase
 end
 
 def all_phrases
-  do it "takes in an argument and puts out the catch phrase" do
-    phrase = 
-    expect{all_phrases}.to output(/Thank You Mario! But Our Princess Is In Another Castle!\n/).to_stdout
-    expect{all_phrases}.to output(/It's Dangerous To Go Alone! Take This.\n/).to_stdout
+    phrase1 = "Thank You Mario! But Our Princess Is In Another Castle!"
+    phrase2 = "It's Dangerous To Go Alone! Take This."
+    phrase3 = 
   end
 end
   
